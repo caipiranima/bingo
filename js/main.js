@@ -8,7 +8,7 @@ for (let i = 0; i < 5; i++) {
     let rand = Math.floor(Math.random() * (15 - i));
     let td = document.createElement('td');
     if (i === 2 && j === 2) {
-      td.innerHTML = '<img src="../img/logo-tamoio.png" />';
+      td.innerHTML = '<img src="/img/logo-tamoio.png" />';
       td.classList.add('coringa');
     } else {
       td.innerHTML = bingo[j][rand];
