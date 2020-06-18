@@ -1,2 +1,2 @@
-# bingo
+# Bingo
 Bingo online
